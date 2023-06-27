@@ -39,6 +39,7 @@ function App() {
               />
             </Routes>
           </div>
+                  <TextForm mode={mode} heading="Welcome to TextWizard" />
           <footer className="footer" mode={mode}>
             <Alert alert={alert} />
           </footer>
